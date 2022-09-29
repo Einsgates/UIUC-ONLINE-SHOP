@@ -1,0 +1,55 @@
+.footer-about {
+  color: white;
+  text-align: center;
+  background-color: darkblue;
+  height: 1000px;
+  margin-bottom: 40px;
+  background-image: url("goose.png");
+  background-attachment: fixed;
+  
+}
+
+.footer-contact-title,
+.footer-about-title {
+  padding-top: 20px;
+  font-size: 40px;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+}
+
+.footer-contact-content{
+  display: block;
+}
+
+.footer-contact {
+  background-color: lightblue;
+  text-align: center;
+  height: 1000px;
+}
+
+.footer-about-content {
+  font-size: 20px;
+  align-items: center;
+}
+
+.contact-info {
+  margin-bottom: 10px;
+  display: block;
+  height: 40px;
+  width: 300px;
+  margin-left: 600px;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.carousel-title {
+  font-weight: bold;
+  font-family: Roboto, Arial;
+  font-size: 40px;
+}
+
